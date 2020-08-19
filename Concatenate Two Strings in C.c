@@ -5,11 +5,10 @@ int main()
 	char str1[100],str2[100];
 	scanf("%s",str1);
 	scanf("%s",str2);
-									//printf("%s",strcat(str1,str2));
 	int i,j;
-	for(i=0;str1[i]!='\0';i++)
-	{
-		printf("%c",str1[i]);
+	for(i=0;str1[i]!='\0';i++)					/* This Same operation can be done using one inbuild function called strcat(). To use this function string.h
+	{								library function need to be added.*/
+		printf("%c",str1[i]);					
 	}
 	if(str1[i]=='\0')
 	{
