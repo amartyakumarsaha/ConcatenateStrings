@@ -6,7 +6,7 @@ int main()
 	scanf("%s",str1);
 	scanf("%s",str2);
 	int i,j;
-	for(i=0;str1[i]!='\0';i++)					/* This Same operation can be done using one inbuild function called strcat(). To use this function string.h
+	for(i=0;str1[i]!='\0';i++)					/* This same operation can be done using one inbuild function called strcat(). To use this function string.h
 	{								library function need to be added.*/
 		printf("%c",str1[i]);					
 	}
